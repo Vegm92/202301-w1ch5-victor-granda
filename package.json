@@ -25,6 +25,7 @@
     "rimraf": "^4.0.4"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
     "husky": "^8.0.0"
   }
 }
