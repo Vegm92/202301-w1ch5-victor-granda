@@ -1,9 +1,7 @@
-@use "./abstracts/colors";
-@use "./layouts";
-
-main .hero-section {
+@use "abstracts/colors";
+main {
   color: colors.$primary;
-  section .hero-section__header {
+  section .hero-section {
     display: flex;
     width: 288px;
     height: 98px;
@@ -11,6 +9,6 @@ main .hero-section {
     gap: 32px;
     justify-content: space-between;
     span .logo {
-   }
+    }
   }
 }
