@@ -1,3 +1,16 @@
-@use "./abstracts";
 @use "./abstracts/colors";
-@use "./abstracts/typography";
+@use "./layouts";
+
+main .hero-section {
+  color: colors.$primary;
+  section .hero-section__header {
+    display: flex;
+    width: 288px;
+    height: 98px;
+    padding: 24px, 16px, 24px, 16px;
+    gap: 32px;
+    justify-content: space-between;
+    span .logo {
+   }
+  }
+}
