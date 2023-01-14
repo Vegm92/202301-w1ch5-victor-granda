@@ -1,7 +1,3 @@
 @use "./abstracts";
 @use "./abstracts/colors";
 @use "./abstracts/typography";
-body {
-  font-family: typography.$main-typogrphy;
-  color: colors.$primary;
-}
