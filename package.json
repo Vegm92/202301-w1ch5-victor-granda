@@ -1,7 +1,6 @@
 {
   "name": "202301-w1chwe-victor-granda-marcel-martino",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "prebuild:dev": "rimraf dist",
     "prebuild": "rimraf dist",
@@ -20,12 +19,12 @@
     "url": "https://github.com/Vegm92/202301-w1chwe-victor-granda-marcel-martino/issues"
   },
   "homepage": "https://github.com/Vegm92/202301-w1chwe-victor-granda-marcel-martino#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "husky": "^8.0.0",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.4"
   },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
-    "husky": "^8.0.0"
-  }
+  "main": "index.js",
+  "description": ""
 }
