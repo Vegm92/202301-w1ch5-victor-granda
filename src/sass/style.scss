@@ -2,7 +2,7 @@
 @use "abstracts/typography" as *;
 @use "reset/reset" as *;
 @use "hero-section/content-block" as *;
-
+@use "hero-section/header" as *;
 body {
   width: 320px;
   height: 1210px;
