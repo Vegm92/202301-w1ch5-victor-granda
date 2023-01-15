@@ -1,18 +1,16 @@
 @use "abstracts/colors";
-@use "abstracts/typography";
-@use "reset/reset";
-.booking-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 60px;
+@use "./hero-section/header";
+@use "./reset/reset";
 
-  width: 288px;
-  height: 595px;
-
-  background: #ffffff;
-  border-radius: 16px;
+body {
+  width: 320px;
+  height: 1210px;
+  background-color: gray;
 }
 
+.hero-section {
+  background: url(".././media/main-photo.webp");
+}
+
+html {
+}
