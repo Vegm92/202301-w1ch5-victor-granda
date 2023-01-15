@@ -2,8 +2,8 @@
   "name": "202301-w1chwe-victor-granda-marcel-martino",
   "version": "1.0.0",
   "scripts": {
-    "prebuild:dev": "rimraf dist",
-    "prebuild": "rimraf dist",
+    "prebuild:dev": "rimraf dist/",
+    "prebuild": "rimraf dist/",
     "build:dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "prepare": "husky install"
@@ -27,6 +27,8 @@
   },
   "description": "",
   "dependencies": {
+    "@fontsource/playfair-display": "^4.5.12",
+    "@fontsource/rubik": "^4.5.13",
     "@fortawesome/fontawesome-free": "^6.2.1",
     "font-awesome": "^4.7.0"
   }
