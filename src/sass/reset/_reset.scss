@@ -7,3 +7,13 @@
 body {
   margin: 0;
 }
+
+body {
+  width: rem(320px);
+
+  background-color: rgb(255, 255, 255);
+}
+
+.hero-section {
+  background: url(".././media/main-photo.webp");
+}
