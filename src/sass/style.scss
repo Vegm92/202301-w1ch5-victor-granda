@@ -1,6 +1,6 @@
-@use "abstracts/colors";
-@use "abstracts/typography";
-@use "reset/reset";
+@use "abstracts/colors" as *;
+@use "abstracts/typography" as *;
+@use "reset/reset" as *;
 @use "hero-section/content-block" as *;
 
 body {
