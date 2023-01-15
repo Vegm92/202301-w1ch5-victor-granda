@@ -2,3 +2,16 @@
 @use "abstracts/typography" as *;
 @use "reset/reset" as *;
 @use "hero-section/content-block" as *;
+
+body {
+  width: 320px;
+  height: 1210px;
+  background-color: gray;
+}
+
+.hero-section {
+  background: url(".././media/main-photo.webp");
+}
+
+html {
+}
