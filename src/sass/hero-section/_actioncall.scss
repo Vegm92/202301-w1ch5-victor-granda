@@ -1,0 +1,16 @@
+@use "../abstracts/colors" as *;
+@use "../abstracts/typography" as *;
+
+.hero-section__actioncall {
+  color: #ffffff;
+  font-family: $secondary-typography;
+  & .actioncall-title {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  & .actioncall-subtitle {
+    font-family: $main-typogrphy;
+    font-size: 18px;
+  }
+}
