@@ -5,16 +5,3 @@
 @use "destination-section/destination-section" as *;
 @use "hero-section/header" as *;
 @use "hero-section/actioncall" as *;
-
-body {
-  width: 320px;
-
-  background-color: rgb(255, 255, 255);
-}
-
-.hero-section {
-  background: url(".././media/main-photo.webp");
-}
-
-html {
-}
