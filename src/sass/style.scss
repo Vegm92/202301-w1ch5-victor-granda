@@ -3,6 +3,9 @@
 @use "reset/reset" as *;
 @use "hero-section/content-block" as *;
 @use "destination-section/destination-section" as *;
+@use "hero-section/header" as *;
+@use "hero-section/actioncall" as *;
+
 body {
   width: 320px;
 
