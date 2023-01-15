@@ -1,4 +1,17 @@
-@use "abstracts/colors" as *;
-@use "abstracts/typography" as *;
-@use "reset/reset" as *;
+@use "abstracts/colors";
+@use "abstracts/typography";
+@use "reset/reset";
 @use "hero-section/content-block" as *;
+
+body {
+  width: 320px;
+  height: 1210px;
+  background-color: gray;
+}
+
+.hero-section {
+  background: url(".././media/main-photo.webp");
+}
+
+html {
+}
