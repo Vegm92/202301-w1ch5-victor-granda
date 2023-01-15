@@ -1,18 +1,4 @@
-@use "abstracts/colors";
-@use "abstracts/typography";
-@use "reset/reset";
-.booking-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 60px;
-
-  width: 288px;
-  height: 595px;
-
-  background: #ffffff;
-  border-radius: 16px;
-}
-
+@use "abstracts/colors" as *;
+@use "abstracts/typography" as *;
+@use "reset/reset" as *;
+@use "hero-section/content-block" as *;
