@@ -1,3 +1,16 @@
 @use "abstracts/colors";
 @use "./hero-section/header";
 @use "./reset/reset";
+
+body {
+  width: 320px;
+  height: 1210px;
+  background-color: gray;
+}
+
+.hero-section {
+  background: url(".././media/main-photo.webp");
+}
+
+html {
+}

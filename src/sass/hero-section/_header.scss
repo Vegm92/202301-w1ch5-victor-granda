@@ -1,8 +1,21 @@
 @use "../abstracts/colors";
 
-.header {
-  width: 100px;
-  height: 98px;
-  gap: 32px;
-  color: red;
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 16px 100px;
+  gap: 100px;
+
+  width: 320px;
+  height: 1210px;
+  border: 5px solid;
+  border-color: red;
+
+  .hero-section__header {
+    width: 320px;
+    height: 110px;
+    border: 5px solid;
+    border-color: blue;
+  }
 }
