@@ -10,42 +10,33 @@
 </head>
 
 <body>
-
   <section class="hero-section">
     <div class="hero-section__header">
       <img class="header__logo" src="media/Logo 1.png" width="140" height="27.52" alt="Logo Travelian">
       <i class="fa-thin fa-bars"></i>
     </div>
-  </section>
+    <section class="booking-form">
+      <form class="booking__info">
+        <div class="booking__destination">
 
-  <section class="booking-form">
-    <form class="booking__info">
-      <div class="booking__destination">
+          <label for="destination" class="booking__label">destination</label>
+          <input id="input-destination" type="text" name="destination">
 
-        <label for="destination" class="booking__label">destination</label>
-        <input id="input-destination" type="text" name="destination">
+          <label for="person-number" class="booking__label">person</label>
+          <input id="input-person-number" type="number" name="person-number">
 
-        <label for="person-number" class="booking__label">person</label>
-        <input id="input-person-number" type="number" name="person-number">
+        </div>
 
-      </div>
+        <div class="booking__dates">
+          <label for="check-in" class="check-in ">check in</label>
+          <input id="input-check-in" type="date" name="check-in">
 
-      <div class="booking__dates">
-        <label for="check-in" class="check-in ">check in</label>
-        <input id="input-check-in" type="date" name="check-in">
-
-        <label for="check-out" class="check-in ">check out</label>
-        <input id="input-check-out" type="date" name="check-out">
-
-      </div>
-
-
-    </form>
-    <button class="booking__button">Book Now
-      <i class="fas fa-arrow-right"></i>
-    </button>
-
-
+          <label for="check-out" class="check-in ">check out</label>
+          <input id="input-check-out" type="date" name="check-out">
+        </div>
+      </form>
+      <button class="booking__button">Book Now</button>
+    </section>
   </section>
 
 </body>
