@@ -7,9 +7,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: rem(80px) rem(16px);
-  gap: rem(100px);
-  height: rem(961px);
+  padding: 80px 16px;
+  gap: 100px;
+  height: 961px;
   width: fit-content;
 }
 //et
@@ -18,39 +18,38 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 0;
-  gap: rem(32px);
+  gap: 32px;
 
-  width: rem(288px);
-  height: rem(221px);
+  width: 288px;
+  height: 221px;
 }
 
 .header__title {
   display: flex;
   margin: 0;
   flex-direction: column;
-  width: rem(288px);
-  height: rem(140px);
-  min-height: rem(140px);
+  width: 288px;
+  height: 140px;
+  min-height: 140px;
 
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  font-size: rem(40px);
-  line-height: rem(53px);
+  font-size: 40px;
+  line-height: 53px;
   color: $tertiary;
-  border-bottom: rem(3px) solid $primary;
+  border-bottom: 3px solid $primary;
 }
 
 .header__description {
   display: flex;
   color: $cuartary;
-  width: rem(288px);
-  height: rem(63px);
+  width: 288px;
+  height: 63px;
   font-family: $main-typography;
   font-style: normal;
   font-weight: 400;
-  font-size: rem(18px);
-  line-height: rem(21px);
+  font-size: 18px;
   margin: 0;
 }
 
@@ -59,11 +58,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: rem(40px) rem(20px);
-  border-radius: rem(16px);
-  width: rem(288px);
-  height: rem(320px);
-  min-height: rem(320px);
+  padding: 40px 20px;
+  border-radius: 16px;
+  width: 288px;
+  height: 320px;
+  min-height: 320px;
   background: url("/src/media/img/destinations/li2-destinations_.jpg");
   background-position: center;
   background-size: cover;
@@ -79,12 +78,12 @@
   display: flex;
   justify-content: flex-start;
   align-content: center;
-  font-size: rem(18px);
+  font-size: 18px;
   margin: 0;
   font-family: $main-typography;
   font-weight: 400;
-  line-height: rem(21px);
-  gap: rem(16px);
+  line-height: 21px;
+  gap: 16px;
 }
 
 .destination-section__navigation {
@@ -92,8 +91,8 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0;
-  gap: rem(40px);
+  gap: 40px;
 
-  width: rem(172px);
-  height: rem(60px);
+  width: 172px;
+  height: 60px;
 }
